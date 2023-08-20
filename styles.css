@@ -1,0 +1,182 @@
+#navbar
+{
+    background-color: rgb(192, 51, 51);
+    color: white;
+    position: fixed;
+    top: 0px;
+    width: 99.5%;
+    height: 8%;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+li
+{
+    list-style-type: none;
+    font-size: 30px;
+    margin-top: 0.8rem;
+}
+li > a
+{
+    color: white;
+    text-decoration: none;
+    align-items: left;
+}
+#navbar a
+{
+    list-style-type: none;
+    font-size: 30px;
+    margin-top: 0.8rem;
+    color: white;
+    text-decoration: none;
+    align-items: left;
+}
+
+
+
+#navbar a:hover
+{
+    background: linear-gradient(90deg, rgb(240, 145, 133), rgb(199,51,51), rgb(120, 150, 250));
+}
+#welcome-section
+{
+    top: 77;
+    border:0;
+    height: 100vh;
+    z-index: -1;
+}
+
+#welcome-section h1
+{
+    position:absolute;
+    top: 130px;
+    left: 6em;
+    text-align: center;
+    font-size: 76px;
+    font-family:monospace;
+    z-index: -1;
+}
+#welcome-section > p
+{
+    position:absolute;
+    top: 15em;
+    color: rgb(189, 24, 57);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style:oblique;
+    left: 22em;
+    font-size: 20px;
+    z-index: -1;
+}
+#project-view
+{
+    background-color: rgb(117, 172, 223);
+    height: fit-content;
+    position:relative;
+    top: 24em;
+}
+#project-view h2
+{
+    font-weight: bold;
+    font-size: 45px;
+    letter-spacing: 1px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+#projects
+{
+    display: grid;
+    grid-template-columns: repeat(3, 13cm);
+    padding-bottom: 2em;
+}
+
+
+.project-tile
+{
+    border: 1px solid white;
+    margin: 1em 7em;
+    height: fit-content;
+}
+.project-image
+{
+    width: 265px;
+    height: 10cm;
+}
+.project-title
+{
+    font-size: 20px;
+    text-decoration: none;
+    background-color: rgb(66, 75, 77);
+    color: white;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.project-tile:hover
+{
+    transform:scale(1.5);
+}
+
+a
+{
+    text-decoration: none;
+}
+
+#Contact
+{
+    position:relative;
+    top: 22em;
+    background-color:inherit;
+    color: white;
+    margin-top: 3rem;
+}
+
+#Contact > h2
+{
+    font-size: 48px;
+    font-weight: lighter;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style:italic;
+    text-align: center;
+}
+#Contact > p
+{
+    margin-top: -1em;
+    text-align: center;
+    color: white;
+    font-style:oblique;
+    letter-spacing: 1px;
+}
+.contact-platform
+{
+    font-family: monospace;
+}
+
+.contact-platform:hover
+{
+    background-color: rgb(66, 75, 77);
+}
+
+.divider
+{
+    width:99.5%;
+    height: 9px;
+    background-color: rgb(189, 24, 57);
+    position:absolute;
+    top: 13rem;
+    z-index: 6;
+    padding-bottom: 2px;
+    border-radius: 10%;
+}
+
+@media screen
+{
+    body
+{
+    background-color: rgb(66, 75, 77);
+    color: white;
+}
+}
